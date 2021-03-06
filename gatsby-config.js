@@ -6,7 +6,6 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
-        'gatsby-plugin-feed',
         `gatsby-transformer-remark`,
         {
             resolve: `gatsby-source-filesystem`,
@@ -63,7 +62,7 @@ module.exports = {
                     }
                   `,
                   output: "/rss.xml",
-                  title: "James Bohrman's RSS Feed",
+                  title: "Your Site's RSS Feed",
                 },
               ],
             },
